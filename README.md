@@ -2,6 +2,7 @@
 Binary classification project based on the challenge posted on Kaggle website: https://www.kaggle.com/competitions/playground-series-s3e17/data
 
 ## Project description
+
 ### 1 Data exploration
 Data exploration is a crucial step of every data analysis pipeline. Distribution of features and outcome variables is crucial to determine the best pre-processing techniques to be applied and classification models to be tested to ensure satisfying results.
 
