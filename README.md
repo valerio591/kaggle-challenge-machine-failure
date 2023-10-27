@@ -17,3 +17,14 @@ A key finding of data exploration of the Machine Failure dataset is that both fe
 - **Try Different Algorithms**: this is in general good advice with all classification tasks irrespective of unbalancedness. 
 - **Introduce a Penalization Term**: another option is to tweak the loss function of the model to overweight prediction errors on the under-represented class. All classification methods that have a specification in terms of Empirical Risk Minimization allow for such option.
 - **Change Perspective**: the core principle behind this method is that there may be a reason for the unbalanced class. In fact, in the specific case of Machine Failures we can consider a malfunctioning as being caused by some unexpected condition in the environment the machine is operating in. Switching from a classification to an anomaly detection problem may be the key to better predictions. 
+
+### 2. Models Trained
+
+#### 2.1 Support Vector Classifier
+
+
+### 3. Next steps
+
+- Try to combine the decision tree model with the rbf kernel svc. One shows optimal recall, while the other has excellent specificity.
+
+- Test some ensemble model of both svc and DTs with bagging and XGBoosting
